@@ -1,5 +1,7 @@
 Algoritmo IVA
 	//definimos las variables precio,total e i como entero
+	
+	
 	definir precio, total,i Como Entero;
 	//definimos el nombre como caracter
 	definir nombre Como Caracter;
