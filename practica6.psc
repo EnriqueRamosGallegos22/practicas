@@ -1,16 +1,24 @@
 Algoritmo practica6
 	//definir variables
-	Definir cali1,cali2,cali3,cali4,n Como Entero
-	promedioa<-0
-	suma<-0
+	Definir cali1,cali2,cali3,cali4,alumnos,n Como Entero
+	Definir promedio, suma Como Real
+	definir name Como Caracter
+	
 	//contadores
-	rep<-0
-	apro<-0
 	Escribir "Cuantos alumnos se encuentran en el salon: "
 	leer alumnos
-	n<-1
+	
+	mientras n<-1 Hacer
+		Escribir "Ingresa el nombre del estudiante "
+		leer name
+		suma<-0
+		promedio<-0
+		
+	FinMientras
+		
+	
 	//ingresen datos 
-	Mientras n=1 Hacer
+	Mientras contador<=alumnos Hacer
 		Escribir "Ingresa el nombre del estudiante "
 		leer name
 		Escribir "La calificacion de ", name, " de la unidad 1 es: "
@@ -26,16 +34,9 @@ Algoritmo practica6
 		Escribir "El promedio del alumno ", name, " es: ", promedioa
 		leer promedioa
 		//opcion para saber si continua o no
-		Escribir "Desea continuar: "
-		//esta linea sera para leer el si quiere continuar
-		leer op
-		si op="si" Entonces
-			n<-1
-			//en caso de que ingrese no pues hasta ahi se acaba 
-		SiNo
-			n<-0
-		FinSi
+		
 		
 	FinMientras
+	
 	
 FinAlgoritmo
