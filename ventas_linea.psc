@@ -238,7 +238,7 @@ Algoritmo ventas_linea
 				Escribir 'Se vendieron ', acum_top, ' Tops'
 				Escribir 'Se vendieron ', acum_shortlicra, ' Shorts de licra'
 				Escribir 'Se vendieron ', acum_leggin, ' Leggins'
-				Escribir 'Se vendieron ', acum_Camisa_Dep, ' Camisas deportivas'
+				Escribir 'Se vendieron ', acum_Camisa_DepM, ' Camisas deportivas'
 				Escribir 'Se vendieron ', acum_dosp, ' Dosp bandas'
 			FinSi
 			Si area=6 Entonces
