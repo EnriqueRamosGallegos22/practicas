@@ -16,4 +16,5 @@ Algoritmo VECTORES
 	FinPara
 	//imprimimos el total
 	escribir "El total a pagar es: $" suma
+	
 FinAlgoritmo
