@@ -5,7 +5,7 @@ Algoritmo pract18
 	//mayor a menor
 	
 	//ingresa la cantidad de candidatos
-	Escribir "Ingresar cantidad de los candidatos"
+	Escribir "Ingresar cantidad de los candidatos: "
 	Leer c
 	
 	//definimos
@@ -15,10 +15,10 @@ Algoritmo pract18
 	
 	Para i<-1 Hasta c con paso 1 Hacer
 		//ingresar nombre del candidato
-		Escribir "Ingresar nombre del candidato"
+		Escribir "Ingresar nombre del candidato: "
 		Leer n[i]
 		//ingresamos cantidad de votos
-		Escribir "Ingresar cantidad de votos que obtuvo el candidato"
+		Escribir "Ingresar cantidad de votos que obtuvo el candidato: "
 		Leer votos[i]
 		//suma de los votos totales
 		tvotos<-tvotos+votos[i]
@@ -53,7 +53,7 @@ Algoritmo pract18
 		Fin Si
 	Fin Para
 	//Mostrar candidatos con mas votos
-	Escribir "Los tres candidatos con mayor cantidad de votos son:"
+	Escribir "Los tres candidatos con mayor cantidad de votos son: "
 	Escribir "Primer lugar ", candidato1, " con ", m1, " votos"
 	Escribir "Segundo lugar ", candidato2, " con ", m2, " votos"
 	Escribir "Tercer lugar ", candidato3, " con ", m3, " votos"
@@ -61,7 +61,7 @@ Algoritmo pract18
 	// checar si un candidato no obtuvo el 10% de los votos
 	Para i <- 1 Hasta c
 		Si votos[i] < tvotos * .10
-			Escribir "El candidato ", n[i], " obtuvo menos del 10% de votaciones y queda fuera de las proximas elecciones."
+			Escribir "El candidato ", n[i], " obtuvo menos del 10% de votaciones y queda fuera de las proximas elecciones"
 		Fin Si
 	Fin Para
 	//ordenamiento de la lista alfabeticamente de la a hasta z
