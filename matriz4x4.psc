@@ -47,9 +47,10 @@ Algoritmo sin_titulo
 	FinPara
 	c_suma=suma*suma
 	//imprimir resultados
-	Escribir " El numero mayor: ",may " posicion [",pos_mayor_i,"," pos_mayor_j "]"
-	Escribir "El numero menor: ",men " posicion [",posme_i,"," posme_j "]"
 	escribir "-------------------------------------------------------------------------"
-	Escribir "La suma de los numeros de la diagonal de la matriz es : ", suma " y su cuadrado es: ",c_suma
-	Escribir "La suma de los numeros que estan encima de la diagonal es la siguiente: ",suma_d
+	Escribir "El numero mayor es el numero: ",may " y se encuentra en la posicion [",pos_mayor_i,"," pos_mayor_j "]"
+	Escribir "El numero menor es el numero: ",men " y se encuentra en la posicion [",posme_i,"," posme_j "]"
+	escribir "-------------------------------------------------------------------------"
+	Escribir "La suma de los numeros de la diagonal de la matriz es : " suma " y su cuadrado es: " c_suma
+	Escribir "La suma de los numeros que estan encima de la diagonal es la siguiente: " suma_d
 FinAlgoritmo
